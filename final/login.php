@@ -29,7 +29,7 @@ $email = $password = "";
 	
 	$password = $_POST['password'];
 	
-	if ($password == "admin")
+	if ($password == "admin@tafe.com")
 	{
 		header("Location: admin.php", true, 301);
 		exit();
